@@ -1,7 +1,14 @@
 import Head from "next/head";
 import { Inter } from "next/font/google";
 import Navbar from "@/components/Navbar";
-import styles from "..//styles/Home.module.css"
+import styles from "..//styles/Home.module.css";
+import Leftside from "@/components/Leftside";
+import About from "@/components/About";
+import { motion } from "framer-motion";
+import Header from "@/components/Header";
+import Experience from "@/components/Experience";
+import Projets from "@/components/Projets";
+import Contact from "@/components/Contact";
 
 export default function Home() {
   return (
@@ -19,7 +26,24 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.container}>
-        <Navbar/>
+        <Navbar />
+        <div className={styles.body}>
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.5 }}
+            className={styles.leftsideContainer}
+          >
+            <Leftside />
+          </motion.div>
+          <div className={styles.center}>
+            <Header />
+            <About />
+            <Experience />
+            <Projets />
+            <Contact />
+          </div>
+        </div>
       </main>
     </div>
   );

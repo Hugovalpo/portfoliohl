@@ -1,0 +1,49 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width:64rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2.5rem;
+    padding-bottom: 8rem;
+    gap:2rem;
+}
+
+.containerInfo {
+    display: flex;
+    flex-direction: column;
+    gap:4rem;
+}
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 500;
+    color:#8892b0;
+    gap:1rem;
+}
+
+.technologies {
+    list-style-type: none;
+}
+
+.span {
+    color:#64FFda;
+    padding-right: 1rem;
+}
+
+@media screen and (min-width: 1024px) {
+        .container {
+            padding-top: 8rem;
+
+        }
+
+        .containerInfo {
+            flex-direction: row;
+        }
+        .leftSide {
+            width: 66.66%;
+        }
+}
+    

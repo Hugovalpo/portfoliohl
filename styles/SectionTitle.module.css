@@ -1,0 +1,38 @@
+.title {
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.span1 {
+
+font-size: 1rem; 
+color: #64FFda;
+margin-right: 0.5rem; 
+
+}
+
+.span2 {
+    display: none;
+    height: 0.5px;
+    background-color: #4B5563;
+    margin-left: 1.5rem;
+}
+
+@media screen and (min-width: 768px) {
+    .span {
+        font-size: 1.125rem; 
+    }
+    .span2 {
+        display: inline-flex;
+         width: 15rem;
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    .span2 {
+        width: 18rem;
+    }
+  }

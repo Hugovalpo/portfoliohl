@@ -1,9 +1,19 @@
 import React from "react";
+import { TbBrandGithub } from "react-icons/tb";
+import {
+  SlSocialLinkedin,
+  SlSocialFacebook,
+  SlSocialInstagram,
+} from "react-icons/sl";
+import { MdOutlineClose } from "react-icons/md";
 import Link from "next/link";
 import styles from "../styles/Navbar.module.css";
 import { motion } from "framer-motion";
+import { useState } from "react";
 
 function Navbar() {
+  const [show, setShow] = useState(false);
+
   return (
     <div className={styles.container}>
       <div className={styles.containerlink}>
@@ -54,10 +64,7 @@ function Navbar() {
             </motion.li>
           </Link>
         </ul>
-        <a
-          href="/assets/hugo_resume.pdf"
-          target="_blank"
-        >
+        <a href="/assets/hugo_resume.pdf" target="_blank">
           <motion.button
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -68,9 +75,20 @@ function Navbar() {
           </motion.button>
         </a>
       </div>
-      <div></div>
-      <div></div>
-    </div>
+      {/*links group finish here */}
+      {/*small icon start here*/}
+      <div className={styles.iconMenu} onClick={() => setShow(true)}>
+        <span className={styles.iconBar1}></span>
+        <span className={styles.iconBar2}></span>
+        <span className={styles.iconBar3}></span>
+      </div>
+      {show && (
+          <div
+            className={styles.popoverContainer}
+          >
+          </div>
+        )}
+      </div>
   );
 }
 

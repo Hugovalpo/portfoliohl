@@ -26,6 +26,11 @@
 
 .technologies {
     list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 450px;
+    font-size: 0.875rem;
+    gap:0.5rem;
 }
 
 .span {
@@ -44,8 +49,8 @@
     position: absolute;
     width: 12rem;
     height: 10rem;
-    margin-left: -6px;
-    margin-top: -6px;
+    /* margin-left: -6px;
+    margin-top: -6px; */
     border-radius: 0.5rem;
     /* border:1px g solid; */
 }
@@ -70,9 +75,10 @@
      .firstFrame {
         width: 33.33%;
      }
-     .imageWraper {
-        padding-left: 0;
-     }
+     .containerInfo {
+        flex-direction: row;
+    }
+     
 }
 
 @media screen and (min-width: 1024px) {
@@ -81,11 +87,13 @@
 
         }
 
-        .containerInfo {
-            flex-direction: row;
-        }
+        
         .leftSide {
             width: 66.66%;
         }
+
+        .imageWraper {
+            padding-left: 0;
+         }
 }
     

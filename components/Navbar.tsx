@@ -36,13 +36,13 @@ function Navbar() {
               <span className={styles.span}>01.</span>About
             </motion.li>
           </Link>
-          <Link href="About" className={styles.link}>
+          <Link href="Projects" className={styles.link}>
             <motion.li
               initial={{ y: -10, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.1, delay: 0.2 }}
             >
-              <span className={styles.span}>02.</span>Experience
+              <span className={styles.span}>02.</span>Projects{" "}
             </motion.li>
           </Link>
           <Link href="About" className={styles.link}>
@@ -50,15 +50,6 @@ function Navbar() {
               initial={{ y: -10, opacity: 0 }}
               animate={{ y: 0, opacity: 1 }}
               transition={{ duration: 0.1, delay: 0.3 }}
-            >
-              <span className={styles.span}>03.</span>Projet{" "}
-            </motion.li>
-          </Link>
-          <Link href="About" className={styles.link}>
-            <motion.li
-              initial={{ y: -10, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ duration: 0.1, delay: 0.4 }}
             >
               <span className={styles.span}>03.</span>Contact
             </motion.li>

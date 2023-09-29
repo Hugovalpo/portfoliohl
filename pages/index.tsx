@@ -6,8 +6,7 @@ import Leftside from "@/components/Leftside";
 import About from "@/components/About";
 import { motion } from "framer-motion";
 import Header from "@/components/Header";
-import Experience from "@/components/Experience";
-import Projets from "@/components/Projets";
+import Projects from "@/components/Projects";
 import Contact from "@/components/Contact";
 
 export default function Home() {
@@ -39,8 +38,7 @@ export default function Home() {
           <div className={styles.center}>
             <Header />
             <About />
-            <Experience />
-            <Projets />
+            <Projects />
             <Contact />
           </div>
         </div>

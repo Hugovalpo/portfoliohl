@@ -171,7 +171,7 @@ function Navbar() {
                     </motion.li>
                   </Link>
                   <Link
-                    href="#Projects"
+                    href="#projects"
                     onClick={handleScroll}
                     className={styles.link}
                   >
@@ -184,8 +184,9 @@ function Navbar() {
                       Projects
                     </motion.li>
                   </Link>
+                  {/* dont forget # for scrollview */}
                   <Link
-                    href="#Contact"
+                    href="#contact"
                     onClick={handleScroll}
                     className={styles.link}
                   >

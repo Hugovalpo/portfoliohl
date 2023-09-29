@@ -157,7 +157,7 @@ function Navbar() {
                     </motion.li>
                   </Link>
                   <Link
-                    href="about"
+                    href="#about"
                     onClick={handleScroll}
                     className={styles.link}
                   >
@@ -171,7 +171,7 @@ function Navbar() {
                     </motion.li>
                   </Link>
                   <Link
-                    href="Projects"
+                    href="#Projects"
                     onClick={handleScroll}
                     className={styles.link}
                   >
@@ -185,7 +185,7 @@ function Navbar() {
                     </motion.li>
                   </Link>
                   <Link
-                    href="Contact"
+                    href="#Contact"
                     onClick={handleScroll}
                     className={styles.link}
                   >
@@ -210,52 +210,52 @@ function Navbar() {
                   </motion.button>
                 </a>
                 <div className={styles.netContainer}>
-                <motion.a
-                  initial={{ y: 20, opacity: 0 }}
-                  animate={{ y: 0, opacity: 1 }}
-                  transition={{ delay: 0.8, ease: "easeIn" }}
-                  href="https://github.com/Hugovalpo"
-                  target="_blank"
-                >
-                  <span className={styles.span2}>
-                    <TbBrandGithub />
-                  </span>
-                </motion.a>
-                <motion.a
-                  initial={{ y: 20, opacity: 0 }}
-                  animate={{ y: 0, opacity: 1 }}
-                  transition={{ delay: 0.85, ease: "easeIn" }}
-                  href="https://www.linkedin.com/in/hugolillou/"
-                  target="_blank"
-                >
-                  <span className={styles.span2}>
-                    <SlSocialLinkedin />
-                  </span>
-                </motion.a>
-                <motion.a
-                  initial={{ y: 20, opacity: 0 }}
-                  animate={{ y: 0, opacity: 1 }}
-                  transition={{ delay: 0.9, ease: "easeIn" }}
-                  href="https://www.instagram.com/polarizado_inc/"
-                  target="_blank"
-                >
-                  <span className={styles.span2}>
-                    <SlSocialInstagram />
-                  </span>
-                </motion.a>
-                <motion.a
-                  initial={{ y: 20, opacity: 0 }}
-                  animate={{ y: 0, opacity: 1 }}
-                  transition={{ delay: 0.95, ease: "easeIn" }}
-                  href="https://www.facebook.com/hugo.lillo1/"
-                  target="_blank"
-                >
-                  <span className={styles.span2}>
-                    <SlSocialFacebook />
-                  </span>
-                </motion.a>
+                  <motion.a
+                    initial={{ y: 20, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ delay: 0.8, ease: "easeIn" }}
+                    href="https://github.com/Hugovalpo"
+                    target="_blank"
+                  >
+                    <span className={styles.span2}>
+                      <TbBrandGithub />
+                    </span>
+                  </motion.a>
+                  <motion.a
+                    initial={{ y: 20, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ delay: 0.85, ease: "easeIn" }}
+                    href="https://www.linkedin.com/in/hugolillou/"
+                    target="_blank"
+                  >
+                    <span className={styles.span2}>
+                      <SlSocialLinkedin />
+                    </span>
+                  </motion.a>
+                  <motion.a
+                    initial={{ y: 20, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ delay: 0.9, ease: "easeIn" }}
+                    href="https://www.instagram.com/polarizado_inc/"
+                    target="_blank"
+                  >
+                    <span className={styles.span2}>
+                      <SlSocialInstagram />
+                    </span>
+                  </motion.a>
+                  <motion.a
+                    initial={{ y: 20, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ delay: 0.95, ease: "easeIn" }}
+                    href="https://www.facebook.com/hugo.lillo1/"
+                    target="_blank"
+                  >
+                    <span className={styles.span2}>
+                      <SlSocialFacebook />
+                    </span>
+                  </motion.a>
+                </div>
               </div>
-              </div>       
               <motion.a
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}

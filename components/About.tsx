@@ -19,7 +19,7 @@ function About() {
             journey of continuous learning, exploring the intricacies of coding
             and gaining expertise in creating user-friendly and responsive web
             applications using the React ecosystem for the front end and honing
-            my skills in back-end development
+            my skills in back-end development.
           </p>
           <p>The technologies i have been working:</p>
           <ul className={styles.technologies}>

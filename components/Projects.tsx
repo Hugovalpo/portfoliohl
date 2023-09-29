@@ -33,7 +33,7 @@ function Projects() {
             <p className={styles.features}>Featured project</p>
             <h3 className={styles.projectName}>Tienditech - fiction e-shop</h3>
             <p className={styles.description}>
-              This project was developed for educational purposes. It is a
+              This project was developed for educational purposes.It is a
               fictitious e-commerce website with a library component using MUI
               for responsive design. The frontend is composed of React, React
               Router, Next.js, and the MUI library. The backend is built with
@@ -73,7 +73,7 @@ function Projects() {
           <div className={styles.projectInfo}>
             <p className={styles.features}>Featured project</p>
             <h3 className={styles.projectName}>
-              AppPaciente -Hackaton Hosp Eloisa Diaz
+              AppPaciente -Hackaton Hospital Eloisa Diaz
             </h3>
             <p className={styles.description}>
               This project was developed for Eloisa Diaz Hospital in Santiago,

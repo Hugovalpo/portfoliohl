@@ -11,10 +11,15 @@ function About() {
       <div className={styles.containerInfo}>
         <div className={styles.leftSide}>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-            repudiandae dolores magnam ea excepturi deleniti minus reprehenderit
-            esse enim explicabo at soluta, dolorem nihil itaque odio delectus
-            odit possimus aliquid.
+            I am a junior fullstack web developer with project experience in
+            React and Node.js. About a year ago, I made a life-changing decision
+            when I discovered my passion for coding. After dedicating eight
+            years to my previous career, I took the bold step to transition into
+            the world of web development. Now, I am thrilled to be on this
+            journey of continuous learning, exploring the intricacies of coding
+            and gaining expertise in creating user-friendly and responsive web
+            applications using the React ecosystem for the front end and honing
+            my skills in back-end development
           </p>
           <p>The technologies i have been working :</p>
           <ul className={styles.technologies}>

@@ -31,12 +31,13 @@ function Projects() {
           </a>
           <div className={styles.projectInfo}>
             <p className={styles.features}>Featured project</p>
-            <h3 className={styles.projectName}>Tienditech - fic e-shop</h3>
+            <h3 className={styles.projectName}>Tienditech - fiction e-shop</h3>
             <p className={styles.description}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-              repellendus mollitia tempora optio, ipsum corrupti laudantium enim
-              perspiciatis, qui ipsam saepe officia nulla. Deserunt odio id
-              consequuntur atque hic fugiat?
+              This project was developed for educational purposes. It is a
+              fictitious e-commerce website with a library component using MUI
+              for responsive design. The frontend is composed of React, React
+              Router, Next.js, and the MUI library. The backend is built with
+              Express.js and MongoDB.
             </p>
             <div className={styles.groupLinks}>
               <a className={styles.link} href="https://tienditech.vercel.app/">
@@ -75,10 +76,11 @@ function Projects() {
               AppPaciente -Hackaton Hosp Eloisa Diaz
             </h3>
             <p className={styles.description}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-              repellendus mollitia tempora optio, ipsum corrupti laudantium enim
-              perspiciatis, qui ipsam saepe officia nulla. Deserunt odio id
-              consequuntur atque hic fugiat?
+              This project was developed for Eloisa Diaz Hospital in Santiago,
+              Chile. It's a mobile application designed to fetch user data from
+              HL7 standard servers, with functionalities such as authentication
+              and user data editing. Technologies used include React Native,
+              React Router, and context.
             </p>
             <div className={styles.groupLinks}>
               {/* <a className={styles.link} href="https://tienditech.vercel.app/"><RxOpenInNewWindow/></a> */}
@@ -113,10 +115,13 @@ function Projects() {
             <p className={styles.features}>Featured project</p>
             <h3 className={styles.projectName}>Flyways app</h3>
             <p className={styles.description}>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-              repellendus mollitia tempora optio, ipsum corrupti laudantium enim
-              perspiciatis, qui ipsam saepe officia nulla. Deserunt odio id
-              consequuntur atque hic fugiat?
+              This final project was developed within a 10-day timeframe as part
+              of a web & mobile developer coding bootcamp at La Capsule. The
+              objective was to create a mobile application that connects
+              passengers who have recently disembarked from their flights and
+              are looking to share a taxi ride with others heading in the same
+              direction. This collaborative approach allows them to share the
+              fare and reduce their environmental footprint.
             </p>
             <div className={styles.groupLinks}>
               {/* <a className={styles.link} href="https://tienditech.vercel.app/"><RxOpenInNewWindow/></a> */}

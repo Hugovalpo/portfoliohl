@@ -209,8 +209,7 @@ function Navbar() {
                     Resume
                   </motion.button>
                 </a>
-              </div>
-              <div className={styles.netContainer}>
+                <div className={styles.netContainer}>
                 <motion.a
                   initial={{ y: 20, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
@@ -256,6 +255,16 @@ function Navbar() {
                   </span>
                 </motion.a>
               </div>
+              </div>       
+              <motion.a
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 1.2, ease: "easeIn" }}
+                className={styles.mailto}
+                href="mailto:lillo.hugo@gmail.com"
+              >
+                <p>lillo.hugo@gmail.com</p>
+              </motion.a>
             </motion.div>
           </div>
         )}

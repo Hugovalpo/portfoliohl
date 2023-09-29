@@ -21,7 +21,7 @@ function About() {
             applications using the React ecosystem for the front end and honing
             my skills in back-end development
           </p>
-          <p>The technologies i have been working :</p>
+          <p>The technologies i have been working:</p>
           <ul className={styles.technologies}>
             <li>
               <span className={styles.span}>

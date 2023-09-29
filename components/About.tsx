@@ -1,4 +1,4 @@
-import  profileImg  from '@/public/assets/images/profileImage.png';
+import profileImg from "@/public/assets/images/profileImage.png";
 import { FaCheck } from "react-icons/fa";
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
@@ -18,58 +18,62 @@ function About() {
           </p>
           <p>The technologies i have been working :</p>
           <ul className={styles.technologies}>
-          <li>
-            <span className={styles.span}>
-              <FaCheck />
-            </span>
-            JavaScript
-          </li>
-          <li>
-            <span className={styles.span}>
-              <FaCheck />
-            </span>
-            React
-          </li>
-          <li>
-            <span className={styles.span}>
-              <FaCheck />
-            </span>
-            TypeScript
-          </li>
-          <li>
-            <span className={styles.span}>
-              <FaCheck />
-            </span>
-            MongoDB
-          </li>
-          <li>
-            <span className={styles.span}>
-              <FaCheck />
-            </span>
-            Next.js
-          </li>
-          <li>
-            <span className={styles.span}>
-              <FaCheck />
-            </span>
-            Node.js
-          </li>
-          <li>
-            <span className={styles.span}>
-              <FaCheck />
-            </span>
-            Express.js
-          </li>
-        </ul>
+            <li>
+              <span className={styles.span}>
+                <FaCheck />
+              </span>
+              JavaScript
+            </li>
+            <li>
+              <span className={styles.span}>
+                <FaCheck />
+              </span>
+              React
+            </li>
+            <li>
+              <span className={styles.span}>
+                <FaCheck />
+              </span>
+              TypeScript
+            </li>
+            <li>
+              <span className={styles.span}>
+                <FaCheck />
+              </span>
+              MongoDB
+            </li>
+            <li>
+              <span className={styles.span}>
+                <FaCheck />
+              </span>
+              Next.js
+            </li>
+            <li>
+              <span className={styles.span}>
+                <FaCheck />
+              </span>
+              Node.js
+            </li>
+            <li>
+              <span className={styles.span}>
+                <FaCheck />
+              </span>
+              Express.js
+            </li>
+          </ul>
         </div>
         <div className={styles.firstFrame}>
           <div className={styles.secondFrame}>
             <div className={styles.imageWraper}>
-              <Image className={styles.image}src={profileImg} alt="profileImg" />
+              <Image
+                className={styles.image}
+                src={profileImg}
+                alt="profileImg"
+              />
             </div>
           </div>
         </div>
-        
+
         <div className={styles.imageContainer}></div>
       </div>
     </section>

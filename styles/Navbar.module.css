@@ -7,13 +7,27 @@
     top: 0;
     z-index: 50;
     background-color: #0a192f; /*0a192f*/
-    overflow: hidden; 
-    display: flex;
+    display: flex; 
     justify-content: flex-end;
     align-items: center;
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;  
+     padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    font-family: 'Inter', sans-serif;  
   }
+  /* .container2 {
+    display: flex;
+    max-width: 1440px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+    justify-content: flex-end;
+
+
+  } */
   .containerlink {
     display: none;
     align-items: center;
@@ -45,6 +59,10 @@
       .iconMenu {
         display: none;
     
+      }
+
+      .menuContainer {
+        display: none;
       }
 
   }
@@ -158,8 +176,10 @@
 
   }
 
-  .popoverContainer {
-    display: none;
+  /*==================================================== POpover css ====================*/
+
+  .menuContainer {
+    display: flex;
     flex-direction: column;
     align-items: flex-end;
     position:absolute;
@@ -168,8 +188,13 @@
     width:100%;
     height:100vh;
     background-color: rgba(0,0,0,0.5);
-    z-index: 10;
+    z-index: 50;
 
+  }
+
+  .containerClose {
+
+    
   }
 
 

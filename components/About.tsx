@@ -39,6 +39,12 @@ function About() {
               <span className={styles.span}>
                 <FaCheck />
               </span>
+              Vue.js
+            </li>
+            <li>
+              <span className={styles.span}>
+                <FaCheck />
+              </span>
               TypeScript
             </li>
             <li>

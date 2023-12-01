@@ -11,7 +11,7 @@ function About() {
       <div className={styles.containerInfo}>
         <div className={styles.leftSide}>
           <p>
-            I am a junior fullstack web developer with project experience in
+            I am a fullstack web developer with project experience in
             React and Node.js. About a year ago, I made a life-changing decision
             when I discovered my passion for coding. After dedicating eight
             years to my previous career, I took the bold step to transition into

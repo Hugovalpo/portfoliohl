@@ -1,8 +1,12 @@
 import React from "react";
 import { motion } from "framer-motion";
 import styles from "../styles/Header.module.css";
+import { useTranslations } from "next-intl";
 
 function Header() {
+  const  t  = useTranslations();
+
+
   return (
     <div id="home" className={styles.container}>
       <motion.h3
@@ -11,7 +15,7 @@ function Header() {
         transition={{ duration: 0.5, delay: 0.6 }}
         className={styles.title1}
       >
-        Hi, my name is
+        {t("header_1")}
       </motion.h3>
       <motion.h1
         initial={{ y: 10, opacity: 0 }}
@@ -19,8 +23,8 @@ function Header() {
         transition={{ duration: 0.5, delay: 0.7 }}
         className={styles.title2}
       >
-        Hugo Lillo.
-        <span className={styles.title3}>I cook code for the web</span>
+        {t("header_2")}
+        <span className={styles.title3}>{t("header_3")}</span>
       </motion.h1>
       <motion.p
         initial={{ y: 10, opacity: 0 }}
@@ -28,11 +32,7 @@ function Header() {
         transition={{ duration: 0.5, delay: 0.8 }}
         className={styles.text}
       >
-        {" "}
-        I am a junior fullstack web developer with projects experience in React
-        and Nodejs. I have a strong interest for creating user-friendly and
-        responsive web applications using React ecosystem & back-end development
-        .{" "}
+        {t("header_text")}
       </motion.p>
     </div>
   );

@@ -8,11 +8,15 @@ import tienditech from "@/public/assets/images/tienditech.png";
 import apppaciente from "@/public/assets/images/appPaciente.png";
 import flyways from "@/public/assets/images/flyways.png";
 import morningnews from "@/public/assets/images/morningnews.png";
+import { useTranslations } from "next-intl";
 
 function Projects() {
+
+  const t = useTranslations();
+
   return (
     <section id="projects" className={styles.container}>
-      <SectionTitle title="Some projects i have done" titleNo="02." />
+      <SectionTitle title={t('title_projects')} titleNo="02." />
       <div className={styles.projectsContainer}>
         {/* start  project one */}
         <div className={styles.project}>
@@ -30,14 +34,10 @@ function Projects() {
             </div>
           </a>
           <div className={styles.projectInfo}>
-            <p className={styles.features}>Featured project</p>
-            <h3 className={styles.projectName}>Tienditech - fiction e-shop</h3>
+            <p className={styles.features}>{t("featured_project")}</p>
+            <h3 className={styles.projectName}>{t("name_project3")}</h3>
             <p className={styles.description}>
-              This project was developed for educational purposes.It is a
-              fictitious e-commerce website with a library component using MUI
-              for responsive design. The frontend is composed of React, React
-              Router, Next.js, and the MUI library. The backend is built with
-              Express.js and MongoDB.
+             {t("descrip_project3")}
             </p>
             <div className={styles.groupLinks}>
               <a className={styles.link} href="https://tienditech.vercel.app/">
@@ -71,16 +71,12 @@ function Projects() {
             </div>
           </a>
           <div className={styles.projectInfo}>
-            <p className={styles.features}>Featured project</p>
+            <p className={styles.features}>{t("featured_project")}</p>
             <h3 className={styles.projectName}>
-              AppPaciente -Hackaton Hospital Eloisa Diaz
+            {t("name_project2")}
             </h3>
             <p className={styles.description}>
-              This project was developed for Eloisa Diaz Hospital in Santiago,
-              Chile. It's a mobile application designed to fetch user data from
-              HL7 standard servers, with functionalities such as authentication
-              and user data editing. Technologies used include React Native,
-              React Router, and context.
+            {t("descrip_project2")}
             </p>
             <div className={styles.groupLinks}>
               {/* <a className={styles.link} href="https://tienditech.vercel.app/"><RxOpenInNewWindow/></a> */}
@@ -112,16 +108,10 @@ function Projects() {
             </div>
           </a>
           <div className={styles.projectInfo}>
-            <p className={styles.features}>Featured project</p>
-            <h3 className={styles.projectName}>Flyways app</h3>
+            <p className={styles.features}>{t("featured_project")}</p>
+            <h3 className={styles.projectName}>{t("name_project1")}</h3>
             <p className={styles.description}>
-              This final project was developed within a 10-day timeframe as part
-              of a web & mobile developer coding bootcamp at La Capsule. The
-              objective was to create a mobile application that connects
-              passengers who have recently disembarked from their flights and
-              are looking to share a taxi ride with others heading in the same
-              direction. This collaborative approach allows them to share the
-              fare and reduce their environmental footprint.
+            {t("descrip_project1")}
             </p>
             <div className={styles.groupLinks}>
               {/* <a className={styles.link} href="https://tienditech.vercel.app/"><RxOpenInNewWindow/></a> */}

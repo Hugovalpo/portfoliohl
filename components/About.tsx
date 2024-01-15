@@ -3,25 +3,17 @@ import { FaCheck } from "react-icons/fa";
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
 import styles from "../styles/About.module.css";
+import { useTranslations } from "next-intl";
 
 function About() {
+  const t = useTranslations();
   return (
     <section id="about" className={styles.container}>
-      <SectionTitle title="About" titleNo="01." />
+      <SectionTitle title={t("about_title")} titleNo="01." />
       <div className={styles.containerInfo}>
         <div className={styles.leftSide}>
-          <p>
-            I am a junior fullstack web developer with project experience in
-            React and Node.js. About a year ago, I made a life-changing decision
-            when I discovered my passion for coding. After dedicating eight
-            years to my previous career, I took the bold step to transition into
-            the world of web development. Now, I am thrilled to be on this
-            journey of continuous learning, exploring the intricacies of coding
-            and gaining expertise in creating user-friendly and responsive web
-            applications using the React ecosystem for the front end and honing
-            my skills in back-end development.
-          </p>
-          <p>The technologies i have been working:</p>
+          <p>{t("about_text")}</p>
+          <p> {t("about_text2")}</p>
           <ul className={styles.technologies}>
             <li>
               <span className={styles.span}>

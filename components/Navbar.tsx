@@ -4,14 +4,20 @@ import {
   SlSocialLinkedin,
   SlSocialFacebook,
   SlSocialInstagram,
+  SlGlobe,
 } from "react-icons/sl";
 import { MdOutlineClose } from "react-icons/md";
 import Link from "next/link";
 import styles from "../styles/Navbar.module.css";
 import { motion } from "framer-motion";
 import { useState, useRef } from "react";
+// import { Flags } from "components/Flags";
+import { useTranslations } from "next-intl";
+import MenuLanguage from "./MenuLanguage";
 
 function Navbar() {
+  const t = useTranslations();
+
   const [show, setShow] = useState(false);
 
   const ref = useRef<string | any>("");
@@ -20,9 +26,9 @@ function Navbar() {
     e.preventDefault();
     setShow(false);
     const href = e.currentTarget.href;
-    console.log("href", href);
+    // console.log("href", href);
     const targetId = href.replace(/.*\#/, "");
-    console.log("targetid", targetId);
+    // console.log("targetid", targetId);
     const elem = document.getElementById(targetId);
     elem?.scrollIntoView({
       behavior: "smooth",
@@ -40,45 +46,42 @@ function Navbar() {
     if (e.target.contains(ref.current)) {
       // do something with myRef.current
       setShow(false);
-      console.log("qssdds", e.target);
     }
   }
 
   return (
     <div className={styles.container}>
+      <motion.div
+        initial={{ y: -10, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.1 }}
+        className={styles.language}
+      >
+        <MenuLanguage />
+      </motion.div>
       <div className={styles.container2}>
         <div className={styles.containerlink}>
           <ul className={styles.rowlink}>
-            <Link
-              id="#link"
-              href="#home"
-              onClick={handleScroll}
-              className={styles.link}
-            >
+            <Link href="#home" onClick={handleScroll} className={styles.link}>
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.1 }}
+                transition={{ duration: 0.1, delay: 0.2 }}
               >
-                Home
+                {t("navbar_1")}
               </motion.li>
             </Link>
-            <Link
-              id="#link"
-              href="#about"
-              onClick={handleScroll}
-              className={styles.link}
-            >
+            <Link href="#about" onClick={handleScroll} className={styles.link}>
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.1, delay: 0.1 }}
+                transition={{ duration: 0.1, delay: 0.3 }}
               >
-                <span className={styles.span}>01.</span>About
+                <span className={styles.span}>01.</span>
+                {t("navbar_2")}
               </motion.li>
             </Link>
             <Link
-              id="#link"
               href="#projects"
               onClick={handleScroll}
               className={styles.link}
@@ -86,13 +89,13 @@ function Navbar() {
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.1, delay: 0.2 }}
+                transition={{ duration: 0.1, delay: 0.4 }}
               >
-                <span className={styles.span}>02.</span>Projects{" "}
+                <span className={styles.span}>02.</span>
+                {t("navbar_3")}
               </motion.li>
             </Link>
             <Link
-              id="#link"
               href="#contact"
               onClick={handleScroll}
               className={styles.link}
@@ -100,9 +103,10 @@ function Navbar() {
               <motion.li
                 initial={{ y: -10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.1, delay: 0.3 }}
+                transition={{ duration: 0.1, delay: 0.5 }}
               >
-                <span className={styles.span}>03.</span>Contact
+                <span className={styles.span}>03.</span>
+                {t("navbar_4")}
               </motion.li>
             </Link>
           </ul>
@@ -113,7 +117,7 @@ function Navbar() {
               transition={{ delay: 0.6, ease: "easeIn" }}
               className={styles.buttonResume}
             >
-              Resume
+              {t("resume")}
             </motion.button>
           </a>
         </div>

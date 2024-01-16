@@ -10,7 +10,7 @@
   "header_3": "Je cuisine du code pour le web",
   "header_text": "Je suis un développeur Web fullstack avec une expérience en projets avec React et Nodejs. J'ai un fort intérêt pour la création d'applications Web conviviales et réactives à l'aide de l'écosystème React et du développement back-end.",
   "about_title": "À propos",
-  "about_text": "Je suis un développeur Web fullstackavec une expérience de projet dans React et Node.js. Il y a environ un an, j'ai pris une décision qui a changé ma vie lorsque j'ai découvert ma passion pour le codage. Après avoir consacré huit ans à ma carrière précédente , J'ai pris le pas audacieux de faire la transition vers le monde du développement Web. Aujourd'hui, je suis ravi de poursuivre ce voyage d'apprentissage continu, d'explorer les subtilités du codage et d'acquérir une expertise dans la création d'applications Web conviviales et réactives à l'aide de l'écosystème React. pour le front-end et perfectionner mes compétences en développement back-end.",
+  "about_text": "Je suis un développeur Web fullstack avec une expérience de projet dans React et Node.js. Il y a environ un an, j'ai pris une décision qui a changé ma vie lorsque j'ai découvert ma passion pour le codage. Après avoir consacré huit ans à ma carrière précédente , J'ai pris le pas audacieux de faire la transition vers le monde du développement Web. Aujourd'hui, je suis ravi de poursuivre ce voyage d'apprentissage continu, d'explorer les subtilités du codage et d'acquérir une expertise dans la création d'applications Web conviviales et réactives à l'aide de l'écosystème React. pour le front-end et perfectionner mes compétences en développement back-end.",
   "about_text2": "Les technologies sur lesquelles j'ai travaillé :",
   "title_projects": "Quelques projets que j'ai réalisés",
   "featured_project": "Projet en vedette",
@@ -20,6 +20,8 @@
   "descrip_project2": "Ce projet a été développé pour l'hôpital Eloisa Diaz de Santiago, au Chili. Il s'agit d'une application mobile conçue pour récupérer les données utilisateur à partir de serveurs standard HL7, avec des fonctionnalités telles que l'authentification et l'édition des données utilisateur. Les technologies utilisées incluent React Native, React Router , et le contexte.",
   "name_project3": "Tienditech - e-shop de fiction",
   "descrip_project3": "Ce projet a été développé à des fins éducatives. Il s'agit d'un site Web de commerce électronique fictif avec un composant de bibliothèque utilisant MUI pour une conception réactive. L'interface est composée de React, React Router, Next.js et de la bibliothèque MUI. Le backend est construit avec Express.js et MongoDB.",
+  "name_project4": "SHS avocats website",
+  "descrip_project4": "Explore ma dernière réalisation dans mon portfolio : une landing page d'avocate créée avec React et Next.js. L'interface épurée et efficace utilise Tailwind CSS pour un design impeccable. J'ai intégré des services de prise de rendez-vous pour des consultations juridiques et je travaille activement sur une traduction complète pour offrir une expérience globale.",
   "title_contact": "Contactez-moi",
-  "text_contact": "N'hesite pas à me contacter"
+  "text_contact": "N'hésite pas à me contacter"
 }

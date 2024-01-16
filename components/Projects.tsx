@@ -7,6 +7,7 @@ import Image from "next/image";
 import tienditech from "@/public/assets/images/tienditech.png";
 import apppaciente from "@/public/assets/images/appPaciente.png";
 import flyways from "@/public/assets/images/flyways.png";
+import websam from "@/public/assets/images/websam.png"
 import morningnews from "@/public/assets/images/morningnews.png";
 import { useTranslations } from "next-intl";
 
@@ -19,6 +20,41 @@ function Projects() {
       <SectionTitle title={t('title_projects')} titleNo="02." />
       <div className={styles.projectsContainer}>
         {/* start  project one */}
+        <div className={styles.project}>
+          <a
+            className={styles.linkImage}
+            href="https://shs-avocats.fr"
+            target="_blank"
+          >
+            <div>
+              <Image
+                className={styles.image}
+                src={websam}
+                alt="Samsara avocat"
+              />
+            </div>
+          </a>
+          <div className={styles.projectInfo}>
+            <p className={styles.features}>{t("featured_project")}</p>
+            <h3 className={styles.projectName}>{t("name_project4")}</h3>
+            <p className={styles.description}>
+             {t("descrip_project4")}
+            </p>
+            <div className={styles.groupLinks}>
+              <a className={styles.link} href="https://shs-avocats.fr">
+                <RxOpenInNewWindow />
+              </a>
+              {/* <a
+                className={styles.link}
+                href="https://github.com/Hugovalpo/Tienditech"
+              >
+                <TbBrandGithub />
+              </a> */}
+            </div>
+          </div>
+        </div>
+        {/* end  project one */}
+        {/* end  project two */}
         <div className={styles.project}>
           <a
             className={styles.linkImage}
@@ -52,8 +88,8 @@ function Projects() {
             </div>
           </div>
         </div>
-        {/* end project one */}
-        {/* start project two */}
+        {/* end project two */}
+        {/* start project three */}
         <div className={styles.project}>
           <a
             className={styles.linkImage}
@@ -89,8 +125,8 @@ function Projects() {
             </div>
           </div>
         </div>
-        {/* end project two */}
-        {/* start project three */}
+        {/* end project three */}
+        {/* start project four*/}
         <div className={styles.project}>
           <a
             className={styles.linkImage}
@@ -124,7 +160,7 @@ function Projects() {
             </div>
           </div>
         </div>
-        {/* end project three */}
+        {/* end project four */}
       </div>
     </section>
   );

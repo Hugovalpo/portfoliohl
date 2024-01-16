@@ -21,7 +21,7 @@
   "name_project3": "Tienditech - e-shop de fiction",
   "descrip_project3": "Ce projet a été développé à des fins éducatives. Il s'agit d'un site Web de commerce électronique fictif avec un composant de bibliothèque utilisant MUI pour une conception réactive. L'interface est composée de React, React Router, Next.js et de la bibliothèque MUI. Le backend est construit avec Express.js et MongoDB.",
   "name_project4": "SHS avocats website",
-  "descrip_project4": "Explore ma dernière réalisation dans mon portfolio : une landing page d'avocate créée avec React et Next.js. L'interface épurée et efficace utilise Tailwind CSS pour un design impeccable. J'ai intégré des services de prise de rendez-vous pour des consultations juridiques et travaille activement sur une traduction complète pour offrir une expérience globale.",
+  "descrip_project4": "Explore ma dernière réalisation dans mon portfolio : une landing page d'avocate créée avec React et Next.js. L'interface épurée et efficace utilise Tailwind CSS pour un design impeccable. J'ai intégré des services de prise de rendez-vous pour des consultations juridiques et je travaille activement sur une traduction complète pour offrir une expérience globale.",
   "title_contact": "Contactez-moi",
-  "text_contact": "N'hesite pas à me contacter"
+  "text_contact": "N'hésite pas à me contacter"
 }

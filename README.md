@@ -1,4 +1,4 @@
-# Tienditech
+# portfolio Hugo dev
 
 ## Description
 This project is my portfolio, a single landing page coded in typescript.

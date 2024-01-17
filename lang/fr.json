@@ -23,5 +23,6 @@
   "name_project4": "SHS avocats website",
   "descrip_project4": "Explore ma dernière réalisation dans mon portfolio : une landing page d'avocate créée avec React et Next.js. L'interface épurée et efficace utilise Tailwind CSS pour un design impeccable. J'ai intégré des services de prise de rendez-vous pour des consultations juridiques et je travaille activement sur une traduction complète pour offrir une expérience globale.",
   "title_contact": "Contactez-moi",
-  "text_contact": "N'hésite pas à me contacter"
+  "text_contact": "N'hésite pas à me contacter",
 }
+

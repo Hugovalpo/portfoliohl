@@ -20,6 +20,8 @@
   "descrip_project2": "Este proyecto fue desarrollado para el Hospital Eloisa Díaz en Santiago, Chile. Es una aplicación móvil diseñada para recuperar datos de usuarios de servidores estándar HL7, con funcionalidades como autenticación y edición de datos de usuarios. Las tecnologías utilizadas incluyen React Native, React Router y contexto.",
   "name_project3": "Tienditech - tienda electrónica de ficción",
   "descrip_project3": "Este proyecto fue desarrollado con fines educativos. Es un sitio web de comercio electrónico ficticio con un componente de biblioteca que utiliza MUI para diseño responsivo. La interfaz está compuesta por React, React Router, Next.js y la biblioteca MUI. El backend está construido con Express.js y MongoDB.",
+  "name_project4": "SHS avocats website",
+  "descrip_project4": "Descubre la última incorporación a mi portafolio: una landing page de abogados creada con React y Next.js. La interfaz elegante y eficiente utiliza Tailwind CSS para un diseño impecable. Integré servicios para programar consultas legales y estoy trabajando activamente en una traducción completa para ofrecer una experiencia global.",
   "title_contact": "Contáctame",
   "text_contact": "No dudes en escribirme"
 }

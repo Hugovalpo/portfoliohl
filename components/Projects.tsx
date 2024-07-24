@@ -32,6 +32,7 @@ function Projects() {
                 src={websam}
                 alt="Samsara avocat"
               />
+              <div className={styles.frame1}></div>
             </div>
           </a>
           <div className={styles.projectInfo}>
@@ -40,6 +41,12 @@ function Projects() {
             <p className={styles.description}>
              {t("descrip_project4")}
             </p>
+            <ul className={styles.technologies}>
+              <li>React</li>
+              <li>Next.js</li>
+              <li>Framer motion</li>
+              <li>Tailwind</li>
+            </ul>
             <div className={styles.groupLinks}>
               <a className={styles.link} href="https://shs-avocats.fr">
                 <RxOpenInNewWindow />
@@ -67,6 +74,7 @@ function Projects() {
                 src={tienditech}
                 alt="tienditech"
               />
+              <div className={styles.frame1}></div>
             </div>
           </a>
           <div className={styles.projectInfo}>
@@ -75,6 +83,12 @@ function Projects() {
             <p className={styles.description}>
              {t("descrip_project3")}
             </p>
+            <ul className={styles.technologies}>
+              <li>React</li>
+              <li>Next.js</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+            </ul>
             <div className={styles.groupLinks}>
               <a className={styles.link} href="https://tienditech.vercel.app/">
                 <RxOpenInNewWindow />
@@ -104,6 +118,7 @@ function Projects() {
                 height={200}
                 width={200}
               />
+              <div className={styles.frame1}></div>
             </div>
           </a>
           <div className={styles.projectInfo}>
@@ -114,6 +129,12 @@ function Projects() {
             <p className={styles.description}>
             {t("descrip_project2")}
             </p>
+            <ul className={styles.technologies}>
+              <li>React Native</li>
+              <li>React Router</li>
+              <li>Axio</li>
+              <li>Styled Components</li>
+            </ul>
             <div className={styles.groupLinks}>
               {/* <a className={styles.link} href="https://tienditech.vercel.app/"><RxOpenInNewWindow/></a> */}
               <a
@@ -141,6 +162,7 @@ function Projects() {
                 height={200}
                 width={200}
               />
+               <div className={styles.frame1}></div>
             </div>
           </a>
           <div className={styles.projectInfo}>
@@ -149,6 +171,13 @@ function Projects() {
             <p className={styles.description}>
             {t("descrip_project1")}
             </p>
+            <ul className={styles.technologies}>
+              <li>React Native</li>
+              <li>React Router</li>
+              <li>Maps</li>
+              <li>Express</li>
+              <li>MongoDB</li>
+            </ul>
             <div className={styles.groupLinks}>
               {/* <a className={styles.link} href="https://tienditech.vercel.app/"><RxOpenInNewWindow/></a> */}
               <a

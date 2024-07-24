@@ -31,7 +31,7 @@ function About() {
               <span className={styles.span}>
                 <FaCheck />
               </span>
-              Vue.js
+              Angular
             </li>
             <li>
               <span className={styles.span}>
@@ -65,7 +65,7 @@ function About() {
             </li>
           </ul>
         </div>
-        <div className={styles.firstFrame}>
+        {/* <div className={styles.firstFrame}>
           <div className={styles.secondFrame}>
             <div className={styles.imageWraper}>
               <Image
@@ -77,7 +77,7 @@ function About() {
           </div>
         </div>
 
-        <div className={styles.imageContainer}></div>
+        <div className={styles.imageContainer}></div> */}
       </div>
     </section>
   );

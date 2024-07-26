@@ -1,35 +1,80 @@
-
+.contactForm {
+    display: flex;
+    width:60%;
+    border:1px solid red;  
+}
 .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
-    border:1px solid #ccc;
+    /* border:1px solid #ccc; */
+    gap:0.5rem;
+    /* border:1px solid yellow; */
 }
 
 
 .groupInputBox {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100%;
+    border:1px solid red;
 }
 
 .inputBox {
-    margin-top: 20px;
+    width:auto;
+    margin-top: 0.1rem;
+    border:1px solid green;
 
 }
 
 .field {
-    width: 100%;
-    height: 50px;
-    background: #f9f9f9;
-    border:2px solid #ccc;
+    width:80%;
+    height: 1rem;
+    background: #0a192f;;
+    border:1px solid #ccc;
     outline: none;
-    border-radius:6px;
-    margin-top: 8px;
+    border-radius:0.375rem;
+    padding:1rem;
+    font-size: 0.875rem;
+    color:#64ffda;
+    margin-top: 0.2rem;
 }
 
 .fieldText {
     width: 100%;
-    background: #f9f9f9;
+    background: #0a192f;
     border:2px solid #ccc;
+    color:#64ffda;
     outline: none;
-    border-radius:6px;
-    margin-top: 8px;
+    padding:1rem;
+    border-radius:0.375rem;
+    margin-top: 0.2rem;
+    resize:none
+}
+
+.button {
+    width:10rem;
+    height: 3.5rem;
+    border:1px solid #64ffda;
+    margin-top: 1.5rem;
+    font-size: 0.875rem;
+    color: #64ffda;
+    font-family: 'Inter', sans-serif;
+    background-color:  #0a192f;
+    cursor:pointer;
+}
+
+
+@media screen and (min-width: 768px) {
+    .groupInputBox {
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .field{
+        width: 100%;
+    }
 }

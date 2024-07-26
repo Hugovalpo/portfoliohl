@@ -7,17 +7,24 @@ function ContactForm() {
       <form className={styles.form}>
         <div className={styles.groupInputBox}>
         <div className={styles.inputBox}>
+          <label>Full Name</label>
           <input className={styles.field} type="text" placeholder="Name" />
         </div>
         <div className={styles.inputBox}>
+          <label>Email</label>
           <input className={styles.field} type="email" placeholder="Email" />
         </div>
         </div>
-        <div className={styles.inputBox}>
-          <textarea className={styles.fieldText} placeholder="Message" rows={10} cols={33} ></textarea>
+        <div className={styles.textBox}>
+          <label>Subject</label>
+          <textarea className={styles.fieldText} placeholder="Message" rows={1} cols={33} ></textarea>
+        </div>
+        <div className={styles.textBox}>
+          <label>Your Message</label>
+          <textarea className={styles.fieldText} placeholder="Message" rows={6} cols={33} ></textarea>
         </div>
 
-        <button>Send Message</button>
+        <button className={styles.button} >Send Message</button>
       </form>
     </section>
   );

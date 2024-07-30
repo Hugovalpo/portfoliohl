@@ -14,11 +14,9 @@ function Contact() {
       <SectionTitle title={t("title_contact")} titleNo="03." />
       <h2 className={styles.subtitle}>{t("text_contact")}</h2>
       <ContactForm/>
-      <Form/>
-      <a href="mailto:lillo.hugo@gmail.com">
+      {/* <a href="mailto:lillo.hugo@gmail.com">
         <button className={styles.button}>Send Mail</button>
-      </a>
-      <Form/>
+      </a> */}
     </section>
   );
 }

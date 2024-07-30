@@ -17,14 +17,15 @@ function ContactForm() {
         </div>
         <div className={styles.textBox}>
           <label>Subject</label>
-          <textarea className={styles.fieldText} placeholder="Message" rows={1} cols={33} ></textarea>
+          <textarea className={styles.fieldText} placeholder="Subject" rows={1} cols={33} ></textarea>
         </div>
         <div className={styles.textBox}>
           <label>Your Message</label>
           <textarea className={styles.fieldText} placeholder="Message" rows={6} cols={33} ></textarea>
         </div>
-
-        <button className={styles.button} >Send Message</button>
+        <div className={styles.buttonContainer}>
+        <button className={styles.button} type="submit" >Send Message</button>
+        </div>
       </form>
     </section>
   );

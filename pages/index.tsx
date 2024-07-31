@@ -15,6 +15,7 @@ import Contact from "@/components/Contact";
 import { GetStaticPropsContext } from "next";
 import { useTranslations } from "next-intl";
 import { SlControlPause } from "react-icons/sl";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   // const { locales } = useRouter();
@@ -48,6 +49,7 @@ export default function Home() {
             <About />
             <Projects />
             <Contact />
+            <Footer />
           </div>
         </div>
       </main>

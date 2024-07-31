@@ -57,7 +57,8 @@ function Navbar() {
         transition={{ duration: 0.1 }}
         className={styles.language}
       >
-        <MenuLanguage />
+        {/* menu language */}
+        <MenuLanguage /> 
       </motion.div>
       <div className={styles.container2}>
         <div className={styles.containerlink}>

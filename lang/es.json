@@ -15,7 +15,7 @@
   "title_projects": "Algunos proyectos que he realizado",
   "featured_project": "Proyecto destacado",
   "name_project1": "Aplicación Flyways",
-  "descrip_project1": "Este proyecto final se desarrolló en un plazo de 10 días como parte de un bootcamp de programación para desarrolladores web y móviles en La Capsule bootcamp. El objetivo era crear una aplicación móvil que conecte a los pasajeros que han desembarcado recientemente de sus vuelos y buscan compartir un viaje en taxi con otras personas que van en la misma dirección. Este enfoque colaborativo les permite compartir la tarifa y reduce su huella ambiental.",
+  "descrip_project1": "Colaboracion en el desarrollo de una aplicación móvil que conecta a los pasajeros que acaban de desembarcar de sus vuelos y buscan compartir un viaje en taxi con otros que se dirigen en la misma dirección. Este enfoque colaborativo les permite compartir la tarifa y reduce su huella ambiental.",
   "name_project2": "appPatient - Hospital Hackaton Eloisa Díaz",
   "descrip_project2": "Este proyecto fue desarrollado para el Hospital Eloisa Díaz en Santiago, Chile. Es una aplicación móvil diseñada para recuperar datos de usuarios de servidores estándar HL7, con funcionalidades como autenticación y edición de datos de usuarios. Las tecnologías utilizadas incluyen React Native, React Router y contexto.",
   "name_project3": "Tienditech - tienda electrónica de ficción",

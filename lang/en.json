@@ -15,7 +15,7 @@
   "title_projects": "Some projects I have done",
   "featured_project": "Featured project",
   "name_project1": "Flyways app",
-  "descrip_project1": "This final project was developed within a 10-day timeframe as part of a web & mobile developer coding bootcamp at La Capsule bootcamp. The objective was to create a mobile application that connects passengers who have recently disembarked from their flights and are looking to share a taxi ride with others heading in the same direction. This collaborative approach allows them to share the fare and reduces their environmental footprint.",
+  "descrip_project1": "Collaboration in the development of a mobile application that connects passengers who have just disembarked from their flights and are looking to share a taxi ride with others heading in the same direction. This collaborative approach allows them to share the fare and reduces their environmental footprint.",
   "name_project2": "appPatient - Hackaton Eloisa Diaz Hospital ",
   "descrip_project2": "This project was developed for Eloisa Diaz Hospital in Santiago, Chile. It's a mobile application designed to fetch user data from HL7 standard servers, with functionalities such as authentication and user data editing. Technologies used include React Native, React Router , and context.",
   "name_project3": "Tienditech - fiction e-shop",

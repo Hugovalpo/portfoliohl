@@ -4,15 +4,17 @@
     max-width:64rem;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 2.5rem;
-    padding-bottom: 8rem;
+    padding-top: 10rem;
+    padding-bottom: 4rem;
     gap:2rem;
+    /* border:1px red solid; */
 }
 
 .containerInfo {
     display: flex;
     flex-direction: column;
     gap:4rem;
+    /* border: 1px solid red; */
 }
 .leftSide {
     display: flex;
@@ -31,6 +33,7 @@
     max-width: 450px;
     font-size: 0.875rem;
     gap:0.5rem;
+    /* border:1px green solid; */
 }
 
 .span {
@@ -38,43 +41,12 @@
     padding-right: 1rem;
 }
 
-.firstFrame {
-    width: 100%;
-    height: 10rem;
-    position: relative;
-    /* border:1px blue solid; */
-}
-
-.secondFrame {
-    position: absolute;
-    width: 12rem;
-    height: 10rem;
-    /* margin-left: -6px;
-    margin-top: -6px; */
-    border-radius: 0.5rem;
-    /* border:1px g solid; */
-}
-
-.imageWraper {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    position: relative;
-    z-index: 20;
-    padding-left: 1.5rem;
-    /* border:1px yellow solid; */
-}
-
-.image {
-    border-radius: 0.5rem;
-    height: 100%;
-
-}
 
 @media screen and (min-width: 768px) {
-     .firstFrame {
-        width: 33.33%;
-     }
+    .container {
+        padding-top: 10rem;
+    }
+     
      .containerInfo {
         flex-direction: row;
     }
@@ -83,7 +55,8 @@
 
 @media screen and (min-width: 1024px) {
         .container {
-            padding-top: 8rem;
+            padding-top: 6rem;
+            padding-left: 15rem;
 
         }
 

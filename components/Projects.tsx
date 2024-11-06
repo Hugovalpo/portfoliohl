@@ -8,7 +8,7 @@ import tienditech from "@/public/assets/images/tienditech.png";
 import apppaciente from "@/public/assets/images/appPaciente.png";
 import flyways from "@/public/assets/images/flyways.png";
 import websam from "@/public/assets/images/websam.png"
-import morningnews from "@/public/assets/images/morningnews.png";
+import samartist from "@/public/assets/images/samartist.png";
 import { useTranslations } from "next-intl";
 
 function Projects() {
@@ -19,6 +19,49 @@ function Projects() {
     <section id="projects" className={styles.container}>
       <SectionTitle title={t('title_projects')} titleNo="02." />
       <div className={styles.projectsContainer}>
+        {/* start  project one */}
+        <div className={styles.project}>
+          <a
+            className={styles.linkImage}
+            href="https://samhrawy.fr"
+            target="_blank"
+          >
+            <div>
+              <Image
+                className={styles.image}
+                src={samartist}
+                alt="sam artist"
+              />
+              <div className={styles.frame1}></div>
+            </div>
+          </a>
+          <div className={styles.projectInfo}>
+            <p className={styles.features}>{t("featured_project")}</p>
+            <h3 className={styles.projectName}>{t("name_project5")}</h3>
+            <p className={styles.description}>
+             {t("descrip_project5")}
+            </p>
+            <ul className={styles.technologies}>
+              <li>React</li>
+              <li>Next.js</li>
+              <li>Chakra Ui</li>
+              <li>Api Nextjs</li>
+              <li>webservices</li>
+            </ul>
+            <div className={styles.groupLinks}>
+              <a className={styles.link} href="https://samhrawy.com">
+                <RxOpenInNewWindow />
+              </a>
+              {/* <a
+                className={styles.link}
+                href="https://github.com/Hugovalpo/Tienditech"
+              >
+                <TbBrandGithub />
+              </a> */}
+            </div>
+          </div>
+        </div>
+        {/* end  project one */}
         {/* start  project one */}
         <div className={styles.project}>
           <a

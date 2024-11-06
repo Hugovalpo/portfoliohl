@@ -22,6 +22,8 @@
   "descrip_project3": "Ce projet a été développé à des fins éducatives. Il s'agit d'un site Web de commerce électronique fictif avec un composant de bibliothèque utilisant MUI pour une conception réactive. L'interface est composée de React, React Router, Next.js et de la bibliothèque MUI. Le backend est construit avec Express.js et MongoDB.",
   "name_project4": "SHS avocats website",
   "descrip_project4": "Explore ma dernière réalisation dans mon portfolio : une landing page d'avocate créée avec React et Next.js. L'interface épurée et efficace utilise Tailwind CSS pour un design impeccable. J'ai intégré des services de prise de rendez-vous pour des consultations juridiques et je travaille activement sur une traduction complète pour offrir une expérience globale.",
+  "name_project5": "Sam Hrawy - portfolio d'artiste",
+  "descrip_project5": "Ce projet a été développé pour un client qui est un artiste visuel. Le site Web est un portfolio qui présente son travail. Le frontend est construit avec React et Next.js, et le backend est fait sur nextJs pour les opérations Api Rest. . Le site est hébergé sur Vercel.",
   "title_contact": "Contactez-moi",
   "text_contact": "N'hésite pas à me contacter"
 }

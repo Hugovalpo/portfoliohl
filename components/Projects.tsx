@@ -23,7 +23,7 @@ function Projects() {
         <div className={styles.project}>
           <a
             className={styles.linkImage}
-            href="https://samhrawy.fr"
+            href="https://samhrawy.com"
             target="_blank"
           >
             <div>

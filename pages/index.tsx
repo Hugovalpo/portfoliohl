@@ -26,7 +26,10 @@ export default function Home() {
     <div>
       <Head>
         <title>{t("title")}</title>
-        <meta name="description" content="Hugo Lillo Web developer" />
+        <meta
+          name="description"
+          content="Hugo Lillo Web developer JavaScript TypeScript React Next.js Nodejs"
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/hache.ico" />
         <link rel="icon" href="/hache.ico" hrefLang="x-default" />

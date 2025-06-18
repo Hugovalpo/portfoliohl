@@ -7,20 +7,25 @@ import Image from "next/image";
 import tienditech from "@/public/assets/images/tienditech.png";
 import apppaciente from "@/public/assets/images/appPaciente.png";
 import flyways from "@/public/assets/images/flyways.png";
-import websam from "@/public/assets/images/websam.png"
+import websam from "@/public/assets/images/websam.png";
 import samartist from "@/public/assets/images/samartist.png";
+import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
 function Projects() {
-
   const t = useTranslations();
 
   return (
     <section id="projects" className={styles.container}>
-      <SectionTitle title={t('title_projects')} titleNo="02." />
+      <SectionTitle title={t("title_projects")} titleNo="02." />
       <div className={styles.projectsContainer}>
         {/* start  project one */}
-        <div className={styles.project}>
+        <motion.div className={styles.project}
+         initial={{ y: -10, opacity: 0 }}
+         whileInView={{ y: 0, opacity: 1 }}
+         transition={{ duration: 3 }}
+         viewport={{margin:"200px"}}
+        >
           <a
             className={styles.linkImage}
             href="https://samhrawy.com"
@@ -38,9 +43,7 @@ function Projects() {
           <div className={styles.projectInfo}>
             <p className={styles.features}>{t("featured_project")}</p>
             <h3 className={styles.projectName}>{t("name_project5")}</h3>
-            <p className={styles.description}>
-             {t("descrip_project5")}
-            </p>
+            <p className={styles.description}>{t("descrip_project5")}</p>
             <ul className={styles.technologies}>
               <li>React</li>
               <li>Next.js</li>
@@ -60,10 +63,15 @@ function Projects() {
               </a> */}
             </div>
           </div>
-        </div>
+        </motion.div>
         {/* end  project one */}
         {/* start  project one */}
-        <div className={styles.project}>
+        <motion.div className={styles.project}
+        initial={{ y: -10, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 3 }}
+        viewport={{margin:"200px"}}
+        >
           <a
             className={styles.linkImage}
             href="https://shs-avocats.fr"
@@ -81,9 +89,7 @@ function Projects() {
           <div className={styles.projectInfo}>
             <p className={styles.features}>{t("featured_project")}</p>
             <h3 className={styles.projectName}>{t("name_project4")}</h3>
-            <p className={styles.description}>
-             {t("descrip_project4")}
-            </p>
+            <p className={styles.description}>{t("descrip_project4")}</p>
             <ul className={styles.technologies}>
               <li>React</li>
               <li>Next.js</li>
@@ -102,10 +108,15 @@ function Projects() {
               </a> */}
             </div>
           </div>
-        </div>
+        </motion.div>
         {/* end  project one */}
         {/* end  project two */}
-        <div className={styles.project}>
+        <motion.div className={styles.project}
+        initial={{ y: -10, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 3 }}
+        viewport={{margin:"200px"}}
+        >
           <a
             className={styles.linkImage}
             href="https://tienditech.vercel.app/"
@@ -123,9 +134,7 @@ function Projects() {
           <div className={styles.projectInfo}>
             <p className={styles.features}>{t("featured_project")}</p>
             <h3 className={styles.projectName}>{t("name_project3")}</h3>
-            <p className={styles.description}>
-             {t("descrip_project3")}
-            </p>
+            <p className={styles.description}>{t("descrip_project3")}</p>
             <ul className={styles.technologies}>
               <li>React</li>
               <li>Next.js</li>
@@ -144,10 +153,15 @@ function Projects() {
               </a>
             </div>
           </div>
-        </div>
+        </motion.div>
         {/* end project two */}
         {/* start project three */}
-        <div className={styles.project}>
+        <motion.div className={styles.project}
+        initial={{ y: -10, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 3 }}
+        viewport={{margin:"200px"}}
+        >
           <a
             className={styles.linkImage}
             href="https://github.com/Hugovalpo/appPaciente"
@@ -166,12 +180,8 @@ function Projects() {
           </a>
           <div className={styles.projectInfo}>
             <p className={styles.features}>{t("featured_project")}</p>
-            <h3 className={styles.projectName}>
-            {t("name_project2")}
-            </h3>
-            <p className={styles.description}>
-            {t("descrip_project2")}
-            </p>
+            <h3 className={styles.projectName}>{t("name_project2")}</h3>
+            <p className={styles.description}>{t("descrip_project2")}</p>
             <ul className={styles.technologies}>
               <li>React Native</li>
               <li>React Router</li>
@@ -188,10 +198,15 @@ function Projects() {
               </a>
             </div>
           </div>
-        </div>
+        </motion.div>
         {/* end project three */}
         {/* start project four*/}
-        <div className={styles.project}>
+        <motion.div className={styles.project}
+        initial={{ y: -10, opacity: 0 }}
+        whileInView={{ y: 0, opacity: 1 }}
+        transition={{ duration: 3 }}
+        viewport={{margin:"200px"}}
+        >
           <a
             className={styles.linkImage}
             href="https://github.com/jossbnd/flyways-frontend"
@@ -205,15 +220,13 @@ function Projects() {
                 height={200}
                 width={200}
               />
-               <div className={styles.frame1}></div>
+              <div className={styles.frame1}></div>
             </div>
           </a>
           <div className={styles.projectInfo}>
             <p className={styles.features}>{t("featured_project")}</p>
             <h3 className={styles.projectName}>{t("name_project1")}</h3>
-            <p className={styles.description}>
-            {t("descrip_project1")}
-            </p>
+            <p className={styles.description}>{t("descrip_project1")}</p>
             <ul className={styles.technologies}>
               <li>React Native</li>
               <li>React Router</li>
@@ -231,7 +244,7 @@ function Projects() {
               </a>
             </div>
           </div>
-        </div>
+        </motion.div>
         {/* end project four */}
       </div>
     </section>

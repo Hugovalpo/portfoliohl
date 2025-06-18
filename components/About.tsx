@@ -63,6 +63,12 @@ function About() {
               </span>
               Express.js
             </li>
+            <li>
+              <span className={styles.span}>
+                <FaCheck />
+              </span>
+              Python
+            </li>
           </ul>
         </div>
         {/* <div className={styles.firstFrame}>

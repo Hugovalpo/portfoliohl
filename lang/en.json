@@ -22,7 +22,7 @@
   "descrip_project3": "This project was developed for educational purposes.It is a fictitious e-commerce website with a library component using MUI for responsive design. The frontend is composed of React, React Router, Next.js, and the MUI library. The backend is built with Express.js and MongoDB.",
   "name_project4": "SHS avocats website",
   "descrip_project4": "A lawyer's landing page crafted with React and Next.js. The sleek and efficient interface employs Tailwind CSS for impeccable design. I integrated services for scheduling legal consultations and I am actively working on complete translation for a global experience.",
-  "name_project5": "Peniche Ma Pensee",
+  "name_project5": "Péniche Ma Pensee",
   "descrip_project5": "Update of a wordpress catalog site.Improved site performance and SEO for a showcase website built with WordPress. Upgraded the hosting server, optimized images and caching, and configured TranslatePress for multilingual support.",
   "name_project6": "Sam Hrawy - artist portfolio",
   "descrip_project6": "This project was developed for a client who is a visual artist. The website is a portfolio that showcases his work. The frontend is built with React and Next.js, and the backend is powered in nextJs for Api Rest operations. The website is hosted on Vercel.",

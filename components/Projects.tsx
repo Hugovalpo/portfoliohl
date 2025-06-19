@@ -74,7 +74,7 @@ function Projects() {
         >
           <a
             className={styles.linkImage}
-            href="https://shs-avocats.fr"
+            //href="https://shs-avocats.fr"
             target="_blank"
           >
             <div>

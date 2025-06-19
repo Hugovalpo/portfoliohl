@@ -74,7 +74,7 @@ function Projects() {
         >
           <a
             className={styles.linkImage}
-            //href="https://shs-avocats.fr"
+            href="https://front-sam-landing.vercel.app/"
             target="_blank"
           >
             <div>
@@ -97,7 +97,7 @@ function Projects() {
               <li>Tailwind</li>
             </ul>
             <div className={styles.groupLinks}>
-              <a className={styles.link} href="https://shs-avocats.fr">
+              <a className={styles.link} href="https://front-sam-landing.vercel.app/">
                 <RxOpenInNewWindow />
               </a>
               {/* <a

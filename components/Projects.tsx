@@ -9,6 +9,7 @@ import apppaciente from "@/public/assets/images/appPaciente.png";
 import flyways from "@/public/assets/images/flyways.png";
 import websam from "@/public/assets/images/websam.png";
 import samartist from "@/public/assets/images/samartist.png";
+import peniche from "@/public/assets/images/peniche.png"; 
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
@@ -42,8 +43,8 @@ function Projects() {
           </a>
           <div className={styles.projectInfo}>
             <p className={styles.features}>{t("featured_project")}</p>
-            <h3 className={styles.projectName}>{t("name_project5")}</h3>
-            <p className={styles.description}>{t("descrip_project5")}</p>
+            <h3 className={styles.projectName}>{t("name_project6")}</h3>
+            <p className={styles.description}>{t("descrip_project6")}</p>
             <ul className={styles.technologies}>
               <li>React</li>
               <li>Next.js</li>
@@ -65,6 +66,50 @@ function Projects() {
           </div>
         </motion.div>
         {/* end  project one */}
+        <motion.div className={styles.project}
+         initial={{ y: -10, opacity: 0 }}
+         whileInView={{ y: 0, opacity: 1 }}
+         transition={{ duration: 3 }}
+         viewport={{margin:"200px"}}
+        >
+          <a
+            className={styles.linkImage}
+            href="https://peniche-ma-pensee.com/"
+            target="_blank"
+          >
+            <div>
+              <Image
+                className={styles.image}
+                src={peniche}
+                alt="peniche-ma-pensee"
+              />
+              <div className={styles.frame1}></div>
+            </div>
+          </a>
+          <div className={styles.projectInfo}>
+            <p className={styles.features}>{t("featured_project")}</p>
+            <h3 className={styles.projectName}>{t("name_project5")}</h3>
+            <p className={styles.description}>{t("descrip_project5")}</p>
+            <ul className={styles.technologies}>
+              <li>Wordpress</li>
+              <li>WPBackery</li>
+              <li>Jupiter Theme</li>
+              <li>TranslatorPress</li>
+              <li>Yoast SEO</li>
+            </ul>
+            <div className={styles.groupLinks}>
+              <a className={styles.link} href="https://peniche-ma-pensee.com/">
+                <RxOpenInNewWindow />
+              </a>
+              {/* <a
+                className={styles.link}
+                href="https://github.com/Hugovalpo/Tienditech"
+              >
+                <TbBrandGithub />
+              </a> */}
+            </div>
+          </div>
+        </motion.div>
         {/* start  project one */}
         <motion.div className={styles.project}
         initial={{ y: -10, opacity: 0 }}

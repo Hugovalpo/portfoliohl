@@ -22,8 +22,10 @@
   "descrip_project3": "Este proyecto fue desarrollado con fines educativos. Es un sitio web de comercio electrónico ficticio con un componente de biblioteca que utiliza MUI para diseño responsivo. La interfaz está compuesta por React, React Router, Next.js y la biblioteca MUI. El backend está construido con Express.js y MongoDB.",
   "name_project4": "SHS avocats website",
   "descrip_project4": "Descubre la última incorporación a mi portafolio: una landing page de abogados creada con React y Next.js. La interfaz elegante y eficiente utiliza Tailwind CSS para un diseño impecable. Integré servicios para programar consultas legales y estoy trabajando activamente en una traducción completa para ofrecer una experiencia global.",
-  "name_project5": "Sam Hrawy - portafolio de artistas",
-  "descrip_project5": "Este proyecto fue desarrollado para un cliente que es un artista visual. El sitio web es un portafolio que muestra su trabajo. El frontend está construido con React y Next.js, y el backend está impulsado por nextJs para las operaciones de Api Rest. . El sitio web está alojado en Vercel.",
+  "name_project5": "peniche ma pensee",
+  "descrip_project5": "Actualización de un sitio de catálogo de WordPress. Se mejoró el rendimiento y el SEO de un sitio web de muestra creado con WordPress. Se actualizó el servidor de alojamiento, se optimizaron las imágenes y el almacenamiento en caché, y se configuró TranslatePress para compatibilidad multilingüe.",
+  "name_project6": "Sam Hrawy - portafolio de artistas",
+  "descrip_project6": "Este proyecto fue desarrollado para un cliente que es un artista visual. El sitio web es un portafolio que muestra su trabajo. El frontend está construido con React y Next.js, y el backend está impulsado por nextJs para las operaciones de Api Rest. . El sitio web está alojado en Vercel.",
   "title_contact": "Contáctame",
   "text_contact": "No dudes en escribirme"
 }

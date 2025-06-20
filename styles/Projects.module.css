@@ -117,14 +117,19 @@
 }
 
 
-@media screen and (min-width:667px) {
+@media screen and (max-width:667px) {
+    .projectInfo {
+        text-align: left;
+
+}
+    
     .description {
         font-size: 1rem;
         padding:1.5rem;
     }
 
     .linkImage {
-        width: 60%;
+        width: 100%;
     }
 }
 

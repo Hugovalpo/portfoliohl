@@ -31,7 +31,7 @@ function About() {
               <span className={styles.span}>
                 <FaCheck />
               </span>
-              Angular
+              VueJS
             </li>
             <li>
               <span className={styles.span}>

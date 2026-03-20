@@ -67,7 +67,7 @@ function About() {
               <span className={styles.span}>
                 <FaCheck />
               </span>
-              Python
+              Php
             </li>
           </ul>
         </div>

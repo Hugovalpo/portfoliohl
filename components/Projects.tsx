@@ -93,7 +93,7 @@ function Projects() {
             <ul className={styles.technologies}>
               <li>Wordpress</li>
               <li>WPBackery</li>
-              <li>Jupiter Theme</li>
+              <li>PHP</li>
               <li>TranslatorPress</li>
               <li>Yoast SEO</li>
             </ul>
